@@ -1,6 +1,6 @@
-/* @flow */
+// @flow
 
-type Country = {
-   region: string,
-   subregion: string 
-}
+export type Country = {
+  region: string,
+  subregion: string,
+};

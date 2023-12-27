@@ -10,7 +10,7 @@
     "test": "jest",
     "flow": "flow",
     "build": "babel src/ -d lib/",
-    "prepublish": "yarn run build"
+    "prepublish": "npm run build"
   },
   "dependencies": {
     "@react-native-community/masked-view": "^0.1.11",
