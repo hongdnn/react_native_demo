@@ -1,12 +1,16 @@
+/* @flow */
+
 import React from 'react';
 import { View, Text, Button } from 'react-native';
 import { useDispatch, useSelector } from 'react-redux';
 import { increment, decrement } from '../redux/reducers/counterSlice';
 import { incrementAsync } from '../redux/actions/counterAction';
+import { Country } from '../models/country';
 
 const HomeScreen = ({ navigation }) => {
   const dispatch = useDispatch();
   const counter = useSelector((state) => state.counter.value);
+  const country: Country = { region: '', subregion: ''};
 
   return (
     <View>

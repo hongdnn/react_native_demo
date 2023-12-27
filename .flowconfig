@@ -1,0 +1,17 @@
+[ignore]
+.*/node_modules/.*
+.*/.git/.*
+.*/.vscode/.*
+.*/__tests__/.*
+
+[include]
+.*
+
+[libs]
+./flow-typed
+
+[lints]
+
+[options]
+
+[strict]
